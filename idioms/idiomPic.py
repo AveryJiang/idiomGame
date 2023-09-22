@@ -2,7 +2,7 @@ import json
 import os
 import pyperclip
 
-cy = open('desktop/idioms/idiom.json')
+cy = open('./idiom.json')
 idioms = json.load(cy)
 repeat = []
 digitNum = int(input("index"))
